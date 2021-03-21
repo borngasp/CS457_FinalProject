@@ -1,0 +1,3049 @@
+##OpenGL GLIB
+##OpenGL GLIB
+Perspective 70
+LookAt 0 0 3  0 0 0  0 1 0
+
+CubeMap 6 p_R.bmp n_L.bmp  n_D.bmp n_B.bmp   p_F.bmp p_U.bmp
+
+CubeMap 7 p_R.bmp n_L.bmp  n_D.bmp n_B.bmp   p_F.bmp p_U.bmp
+
+Vertex	 	finalProject.vert
+Fragment	finalProject.frag
+Program    FinalProject				\
+           uReflectUnit 6             		\
+           uRefractUnit 7             		\
+		uK <0.0 0.00 0.2>		\
+		uP <0.1 0.6 1.0>		\
+        	uNoiseAmp <0. 0. 6.>		\
+        	uNoiseFreq <0.1 1. 20.>		\
+		uEta <1. 1.33 2.5>		\
+		uFreeze <false>		\
+		uWind <-100. 0. 100.> 	\
+		uMix <0. .1 1.>	
+
+#QuadXY  -0.2  1.  100 100
+Timer 4
+
+PushMatrix
+Scale 0.04
+Translate 80. 1523. -29.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 240. 1500. 3.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 247. 1174. -78.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 249. 1770. -4.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -19. 1116. -54.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 85. 1618. -20.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 139. 1399. 16.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -169. 1727. -38.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 2. 594. -62.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -106. 953. -38.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 180. 344. 15.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -186. 1071. -55.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 287. 452. -29.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 222. 1311. -60.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -190. 868. -47.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -53. 1475. -74.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 221. 1024. 12.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 129. 886. -71.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 130. 1356. 11.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -273. 1768. 16.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 172. 1548. -37.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 159. 1163. -73.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -17. 1440. -16.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 116. 1570. 0.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -54. 724. -75.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 110. 1166. 9.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -78. 1780. -40.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 48. 1737. -61.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -115. 1263. -13.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 278. 375. -62.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 167. 982. 12.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 4. 924. -7.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -52. 830. -50.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -252. 1419. -78.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 99. 1643. -5.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -220. 994. -8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -291. 1692. -67.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -281. 1432. -78.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 66. 1294. -58.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -281. 847. -7.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -171. 603. -50.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 222. 332. -29.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 127. 726. -7.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 272. 797. -4.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -111. 1142. -58.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 74. 1424. -33.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -30. 121. -17.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -132. 1437. -19.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -60. 191. -2.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 175. 381. 8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 59. 413. -66.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -37. 691. -67.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -115. 787. -15.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -189. 912. -29.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 185. 167. -57.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 204. 1784. -26.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -173. 832. -17.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -187. 1252. -22.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -83. 1572. -25.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -185. 121. 5.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 108. 750. -69.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -286. 415. -26.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 82. 477. -76.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 62. 358. -46.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 42. 1198. -36.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -298. 1602. -1.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 127. 334. -28.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -245. 1737. 15.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 239. 1106. -44.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -79. 790. -76.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 119. 1408. -39.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -234. 628. -5.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 126. 419. -65.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 174. 546. -29.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 180. 703. -33.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 240. 942. -76.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -199. 1092. -44.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 282. 1240. -50.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -252. 1023. -45.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 251. 362. -54.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -219. 1493. -19.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -61. 913. -20.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -84. 1660. -20.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -98. 1416. -40.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -92. 577. -50.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 269. 1512. -37.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 235. 730. -44.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -208. 1615. -60.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 108. 782. 5.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 95. 1398. -8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 258. 1684. -8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -300. 1165. -12.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 294. 498. -30.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -138. 693. -47.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -224. 570. 8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 285. 1209. -34.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 91. 1784. -35.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -18. 1069. -79.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -147. 326. -28.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 191. 820. -19.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 270. 111. -80.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -143. 734. 2.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -44. 270. -75.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -21. 704. -42.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -12. 636. -68.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 105. 666. -18.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 192. 1314. -16.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 287. 426. -8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 189. 124. -38.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -42. 1124. 3.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 194. 989. -73.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 93. 1498. -80.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -66. 1713. -77.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 79. 1517. 18.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -69. 1215. -22.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 141. 1482. -52.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -294. 1670. 1.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 246. 316. -49.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 5. 191. -62.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 289. 1619. 3.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 132. 738. -66.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 255. 1413. -46.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -72. 344. -71.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 126. 989. -25.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 259. 388. -31.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 205. 481. -30.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 24. 368. -15.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 239. 1548. 8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -261. 402. 6.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -233. 972. -43.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -84. 1647. -60.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -164. 1076. -53.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -184. 176. -23.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -91. 1207. -44.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -272. 801. -30.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -199. 338. 11.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -207. 729. 11.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -298. 728. -20.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 27. 480. -15.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 108. 1544. -64.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -128. 173. -30.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 281. 386. -61.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -261. 1770. -52.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -92. 171. -43.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -199. 928. -66.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 209. 574. -55.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -194. 1142. -76.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -14. 1272. 12.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -254. 1242. 13.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 81. 1464. -40.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 34. 1068. -15.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -260. 1503. -32.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -217. 662. -32.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 188. 1425. -47.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 168. 1337. -18.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -238. 954. -63.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -204. 662. -41.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -273. 879. -30.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 299. 567. -72.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -230. 1457. 4.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 171. 1132. 18.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 258. 331. -73.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 221. 969. 4.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 275. 902. 15.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -236. 1686. -79.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 265. 503. -75.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 270. 1213. -72.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 222. 1792. 19.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -123. 449. -74.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 233. 1365. -67.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 186. 1297. -39.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 51. 936. -44.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 22. 537. -69.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -108. 768. -73.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 282. 1615. -72.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 60. 1107. -78.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 256. 1208. -56.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 125. 437. -33.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -14. 788. -4.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -24. 1713. -22.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 102. 1069. 9.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 238. 1197. -70.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 164. 1670. 0.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 29. 983. -67.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -157. 1189. -1.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 278. 1326. 4.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 215. 161. -73.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 74. 865. -38.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -214. 1383. -57.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 280. 985. -80.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -145. 281. -59.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -136. 987. -58.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -124. 101. 0.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -221. 365. -56.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -74. 331. -42.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 148. 932. 0.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 15. 1004. -17.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -159. 963. -35.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 244. 466. -47.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 205. 107. -8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -140. 652. -39.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -83. 1065. 6.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 296. 176. -33.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -40. 380. -50.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -116. 793. -56.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 109. 1169. -6.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -213. 1760. -14.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -281. 790. -1.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -258. 1172. -8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 237. 1010. -73.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 239. 707. 1.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 187. 1263. -5.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 257. 551. -32.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -80. 375. -57.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -213. 1641. -75.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 231. 184. -42.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -292. 210. 6.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 173. 293. 2.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -200. 1663. -69.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -74. 887. -70.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -162. 359. -27.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 286. 977. -9.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -82. 576. -1.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 12. 1118. -56.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -120. 710. -63.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -245. 551. -63.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -86. 1229. -37.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -132. 1454. 0.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -35. 885. -11.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 262. 1440. -4.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -232. 1007. -45.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -75. 1611. -76.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -127. 1573. -17.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 24. 1381. 4.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 110. 480. -45.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 286. 1015. -44.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -148. 358. -74.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -250. 982. -80.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -211. 335. -77.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 246. 160. -3.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 233. 1740. -33.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 173. 1684. -80.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 216. 787. -67.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -146. 702. -75.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -188. 563. -6.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 45. 1074. -47.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -91. 1389. -75.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 49. 1134. -54.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -25. 1725. -36.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 61. 1297. -44.
+Obj raindrop.obj
+PopMatrix
+
+
+PushMatrix
+Scale 0.03
+Translate 17. 1584. -25.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -101. 326. -17.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 101. 849. -52.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -288. 1690. -74.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -207. 1733. -39.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 279. 1741. -62.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -285. 468. -80.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 247. 441. 17.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 278. 1304. -7.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 130. 137. -34.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 38. 126. -10.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -232. 428. -73.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -139. 949. -13.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 190. 1385. 19.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -295. 551. -10.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -8. 219. -11.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -76. 1543. 19.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -268. 1097. 10.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 76. 360. -7.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -160. 380. -70.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -171. 1177. 14.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 163. 945. -51.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 148. 1751. -7.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -277. 595. -17.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 290. 1414. -75.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 164. 1296. -36.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 208. 217. -44.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 150. 399. -78.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 176. 948. -77.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 193. 484. -68.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 187. 837. -46.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -168. 149. -71.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -37. 1415. 16.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -37. 893. -61.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -138. 1608. -8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -293. 375. -36.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -177. 1747. -53.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -217. 539. -18.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -24. 696. -47.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 297. 1142. 3.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -91. 832. -40.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 25. 212. -32.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -228. 620. -28.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 247. 896. -14.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -105. 1093. 12.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -116. 906. -80.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -45. 1633. -58.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -172. 1557. -15.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 41. 658. -66.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -130. 1562. -22.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 34. 810. -55.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 6. 1543. -23.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -263. 901. -49.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 259. 483. -46.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -31. 1308. -61.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -282. 584. -42.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -258. 452. -50.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -134. 1088. -22.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -250. 635. -41.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 79. 996. -19.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -251. 1392. -39.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 27. 1728. -5.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -12. 1694. -35.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -222. 1584. -62.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -212. 1300. -43.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 140. 1496. -68.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 231. 1451. 18.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -1. 611. -50.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -145. 772. -72.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -200. 1035. -1.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -271. 1524. -33.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 108. 1117. -47.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -183. 1270. -24.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 18. 468. 19.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -229. 1749. -16.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -240. 895. -10.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 119. 378. 17.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 114. 328. -69.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 53. 810. -25.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -273. 1388. -66.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 11. 670. -75.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -110. 204. -49.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -195. 348. 3.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -157. 1453. -48.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 284. 582. 5.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 10. 1548. -35.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -141. 801. -51.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 241. 1495. -45.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 218. 340. -46.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -103. 817. -58.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -35. 1357. -12.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 211. 852. -6.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 34. 1711. -35.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 60. 1790. -68.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 243. 1641. -71.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 237. 544. -39.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -215. 1227. -65.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 145. 289. 4.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -101. 1204. -57.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 9. 849. -23.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -87. 102. -40.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 244. 1453. 16.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 46. 505. -3.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -298. 218. -38.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -154. 1510. -59.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -49. 1157. -75.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 114. 1680. -68.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -70. 669. -62.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -77. 811. -60.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -136. 1468. -20.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -75. 1137. 18.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -145. 1092. -14.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -298. 1039. 16.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -151. 102. -24.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 282. 521. -42.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 42. 508. -21.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -81. 1131. -42.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -201. 1598. 18.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 135. 796. -76.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -160. 171. 16.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -238. 292. -31.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -106. 957. -54.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -270. 1116. 13.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 277. 153. 11.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 184. 781. -48.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 179. 282. -19.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 278. 865. -72.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 188. 1504. -67.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 97. 1714. -66.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -276. 1193. -8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -239. 1366. -1.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 271. 722. -45.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -197. 1619. 11.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -99. 552. -80.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 70. 209. -79.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -135. 467. -19.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 133. 776. -70.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 121. 1682. -16.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -300. 1695. -59.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 270. 1008. -53.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -73. 570. -20.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -277. 1060. -17.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 221. 516. -25.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -117. 117. -75.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 45. 915. -54.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 98. 642. -32.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 138. 1269. -10.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 177. 1249. 5.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 19. 145. 8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 158. 1751. 11.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -32. 347. -58.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -36. 628. -60.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -5. 1499. -53.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 141. 1227. -36.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -3. 266. 11.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -233. 429. -45.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 126. 1075. -47.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -21. 524. -12.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 71. 642. -78.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 170. 1275. -32.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -226. 1327. -69.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -145. 407. -29.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -175. 594. -50.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 223. 917. -49.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -7. 564. 6.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 240. 306. -57.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 249. 777. -77.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -148. 404. 9.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 231. 201. 18.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 160. 549. 10.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -257. 1173. -50.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 242. 561. -11.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 277. 455. -69.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -138. 186. -46.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 64. 737. 2.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -259. 1724. -33.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -75. 697. -69.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -254. 1354. -57.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 79. 554. -20.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 67. 529. -19.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 137. 672. -65.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 159. 749. -18.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -262. 1296. -37.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -280. 342. -23.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -61. 320. -45.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -126. 610. -1.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -184. 1439. -53.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -279. 1140. 1.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -88. 1096. -71.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -203. 1471. -30.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 19. 394. -61.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -264. 1328. 9.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 249. 176. -15.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -13. 1496. 1.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 36. 560. 11.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 100. 1424. -13.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -180. 176. -40.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -53. 590. -71.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 184. 1780. -70.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 209. 1200. -79.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -124. 318. 5.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 115. 1566. -57.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 278. 1614. -20.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -261. 1179. 15.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -145. 1735. -47.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -23. 1242. -8.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 174. 1283. 7.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 235. 1288. 13.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -294. 979. -1.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -203. 602. -56.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 168. 1536. -74.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 15. 1753. -57.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -12. 408. -4.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -198. 1001. 0.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -16. 667. -20.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 7. 1405. 2.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -116. 1713. -41.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 167. 563. -18.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -248. 1168. -33.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 222. 822. -38.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 230. 218. 0.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 171. 1612. -19.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 31. 873. -54.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 278. 561. -24.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 174. 695. -31.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 110. 1711. -50.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -69. 829. 2.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 252. 724. -60.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate -106. 152. -61.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 217. 380. -7.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -295. 1552. 11.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -135. 247. -30.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 42. 899. -47.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 62. 615. -13.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 297. 1349. -77.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 125. 875. -45.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -72. 1654. 9.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -214. 115. -35.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -181. 436. -5.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 235. 1525. -5.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -23. 1361. -46.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate -272. 401. 9.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 102. 293. -6.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate 168. 1262. -30.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate -84. 692. -35.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.04
+Translate 259. 1143. 14.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 231. 421. -66.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.02
+Translate -1. 1441. 16.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.05
+Translate 202. 982. -9.
+Obj raindrop.obj
+PopMatrix
+
+PushMatrix
+Scale 0.03
+Translate 183. 661. -72.
+Obj raindrop.obj
+PopMatrix
+
+Vertex texture.vert
+Geometry 
+Fragment texture.frag
+Program Texture  uTexUnit 6
+
+Texture2D  6  p_R.bmp
+QuadYZ 10. 10. 10 10
+
+Texture2D  6  n_L.bmp
+QuadYZ -10. 10. 10
+
+Texture2D  6  n_D.bmp
+QuadXZ 10. 10. 10 10
+
+Texture2D  6  n_B.bmp
+QuadXZ -10. 10. 10 10
+
+Texture2D  6  p_F.bmp
+QuadXY 10. 10. 10 10
+
+Texture2D  6  p_U.bmp
+QuadXY -10. 10. 10 10
